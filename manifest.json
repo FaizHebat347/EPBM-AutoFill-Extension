@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "EPBM AutoFill Cukip",
+  "version": "1.0",
+  "description": "Ini ekstensi buat kalian yang capek ngisi EPBM wkwwk, terutama yang mau lock rata kiri pilihannya.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "images/icon.png"
+    }
+  },
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "host_permissions": [
+    "https://sip.umrah.ac.id/perkuliahan_mahasiswa/lhs*"
+  ]
+}

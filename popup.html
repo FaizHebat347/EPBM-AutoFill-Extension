@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EPBM AutoFill</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      width: 250px; /* Lebar popup */
+      background-color: #f4f4f4;
+    }
+    .header {
+      display: flex; /* Menggunakan flexbox untuk mensejajarkan logo dan judul */
+      align-items: center; /* Menyelaraskan secara vertikal */
+      margin-bottom: 15px;
+    }
+    .header img {
+      margin-right: 10px; /* Jarak antara logo dan judul */
+      width: 32px; /* Ukuran logo di dalam popup */
+      height: 32px; /* Pastikan proporsional */
+    }
+    h2 {
+      color: #333;
+      margin: 0; /* Menghilangkan margin default h2 */
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #555;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="images/icon.png" alt="Logo"> <h2>EPBM AutoFill Cukip</h2>
+  </div>
+
+  <hr>
+  <h2>Jangan lock kiri ya :V</h2>
+  <hr>
+
+  
+  <label for="pilihanJawaban">Pilih Jawaban Otomatis:</label>
+  <select id="pilihanJawaban">
+    <option value="4">Sangat Baik/Jelas (4)</option>
+    <option value="3">Baik/Jelas (3)</option>
+    <option value="2">Cukup Baik/Jelas (2)</option>
+    <option value="1">Kurang Baik/Jelas (1)</option>
+  </select>
+
+  <button id="isiEPBM">Isi EPBM Otomatis</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
