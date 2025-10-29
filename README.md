@@ -34,13 +34,6 @@ Namun, fungsinya tetap efektif untuk mempercepat pengisian secara umum.
 
 5. Buka halaman EPBM kampusmu, lalu jalankan ekstensi untuk otomatis mengisi form.
 
-📂 Struktur Proyek
-EPBM-AutoFill-Chrome-Extension/
-├── images/          # Ikon dan aset ekstensi
-├── manifest.json    # Konfigurasi utama ekstensi
-├── popup.html       # Tampilan popup ekstensi
-└── popup.js         # Logika utama pengisian otomatis
-
 ✨ Catatan
 
 README ini awalnya saya tulis sendiri berdasarkan pengalaman pribadi saya membuat ekstensi ini.
