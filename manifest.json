@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "EPBM AutoFill Cukip",
   "version": "1.0",
-  "description": "Ini ekstensi buat kalian yang capek ngisi EPBM wkwwk, terutama yang mau lock rata kiri pilihannya.",
+  "description": "Ini ekstensi buat kalian yang capek karena bug saat ngisi EPBM.",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
